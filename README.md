@@ -35,7 +35,5 @@ post man collection
 ```bash
 https://www.postman.com/collections/2bbeb49104c3b72a1c01
 ```
-<p align="center">
-  <img src="/cars-employee-task.jpeg" width="350" title="hover text">
-  <img src="/cars-employee-task.jpeg" width="350" alt="accessibility text">
-</p>
+##diagrams
+![Alt text](cars-employee-task.jpeg?raw=true "Title")
