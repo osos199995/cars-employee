@@ -3,7 +3,7 @@ module.exports = {
   seeds: ['src/database/seeders/**/*{.ts,.js}'],
   factories: ['src/database/factories/**/*{.ts,.js}'],
   useUnifiedTopology: true,
-  database: 'mumez',
+  database: 'cars',
   entities: ['src/models/**/entities/*{.ts,.js}'],
   logging: true,
 };

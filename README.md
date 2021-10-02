@@ -1,4 +1,10 @@
-
+## description
+```bash
+# 1-start running seed of employee and access cards
+2- create car and use the crud operation from postman
+3- assign employee and accessCard to car 
+4- pass the car throew the gate and check the charge
+```
 
 
 ## Requirements
@@ -10,10 +16,16 @@
 ## Installation
 
 ```bash
+copy .env.example file
+and rename it to .env
 
 $ npm install
 $ npm run seed:refresh
-
+ use any mongodb tool to grab ids of documents
+ like 
+ employeeId
+ accessCardId
+ carId 
 ```
 
 ## Running the app
