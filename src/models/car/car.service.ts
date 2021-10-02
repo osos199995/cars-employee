@@ -84,7 +84,7 @@ export class CarService {
     if (!check) throw new NotFoundException('charged before')
     const charged = await this.accessCardRepository.charge(car.accessCardId);
     if (!charged == true)
-      throw new NotFoundException('there is something wrong');
+      throw new NotFoundException('you dont have credit to pay this pill');
     const createTransactionDto: CreateTransactionDto = {
       carId: car.carId,
       accessCardId: car.accessCardId,
