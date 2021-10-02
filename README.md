@@ -1,18 +1,20 @@
 
 
 # Description
-Mumez 
+car task 
 ## Requirements
 ```bash
 # mongoDb
-# redis
-# elasticsearch
+
 ```
 
 ## Installation
 
 ```bash
+
 $ npm install
+$ npm run seed:refresh
+
 ```
 
 ## Running the app
@@ -28,15 +30,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+post man collection
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+https://www.postman.com/collections/2bbeb49104c3b72a1c01
 ```
+<p align="center">
+  <img src="/cars-employee-task.jpeg" width="350" title="hover text">
+  <img src="/cars-employee-task.jpeg" width="350" alt="accessibility text">
+</p>
